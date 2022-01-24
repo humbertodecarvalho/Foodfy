@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+main {
+    max-width: 940px;
+    margin: 0 auto;
+
+/*<======= MENU =======>*/
+
+}
+
+#menu {
+    margin-top: 38px;
+    margin-bottom: 36px;
+    position: relative;
+    
+}
+
+#menu img {
+    position: absolute;
+    bottom: 0%;
+}
+
+#header-links {
+    display: inline;
+    margin-left: 150px;
+}
+
+.menu-focus a  {
+    font-weight: 700;
+}
+
+#header-links a {
+    margin: 0px 15px 6px 15px;
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+#header-links a:hover {
+    color: #6e6262;
+    transition: 500ms;
+}
+
+
+/*<======= HOMEPAGE =======>*/
+
+#banner {
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#banner-info {
+    margin-left: 60px;
+    margin: 117px 0px 117px 60px;
+    max-width: 325px;
+}
+
+#banner-info h1{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+#banner-info p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#banner-img {
+    margin-top: 66px;
+    text-align: center;
+}
+
+#banner-img img{
+    margin-left: 27px;
+    
+}
+
+#most-accessed {
+    margin: 50px 0px 50px;
+}
+
+#most-accessed h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.recipe img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    margin: 20px 0px 20px;
+}
+
+.recipe h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.recipe h4 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+footer {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #999999;
+    padding: 25px 0px 23px;
+
+}
+
+/*<======= ABOUT PAGE =======>*/
+
+#about h1 {
+    margin: 14px 0px 20px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+#about h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/*<======= RECIPES PAGE =======>*/
+
+#recipes-page{
+    margin-bottom: 50px;
+}
+
+/*<======= MODAL =======>*/
+
+.modal-overlay {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    margin: 18vh auto;
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.modal .close-modal {
+    position: absolute;
+    bottom: 30px;
+    left: 281px;
+    right: 281px;
+    cursor: pointer;
+}
+
+.modal .close-modal p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #999999;
+}
+
+/*=== modal active ===*/
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.modal-content h4 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #777777;
+}
+
+
+iframe {
+   width: 600px;
+   height: 200px;
+   margin: 30px;
+   border-radius: 15px;
+}
